@@ -10,7 +10,7 @@ responses = [
 ]
 
 def chatbot():
-    print("Welcome to the climate aware chatbot!")
+    print("Welcome to a climate aware chatbot!")
     print("What would you like to learn about today?")
 ​
 while True:
