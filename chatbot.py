@@ -6,8 +6,7 @@ responses = [
     "The temperature of the ocean is rising at an averate rate of 3.3 mm a year.",
     "To battle the climate crisis, as a citizen, you can eat less meat, drive less, and vote and advocate for policy.",
     "You can create a more sustainable lifestyle by consuming and shopping less, updating your home for longer lasting sustainable features."
-    "You are welcome.",
-    "Goodbye! Have a nice day."
+    "You are welcome."
 ]
 
 def chatbot():
