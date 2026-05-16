@@ -1,4 +1,3 @@
-
 questions = ["hello", "carbon", "temperature", "climate", "sustainability"]
 responses = [
     "What would you like to learn about today?",
