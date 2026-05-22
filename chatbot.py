@@ -22,7 +22,7 @@ while True:
             
     else:
         print("Bot: I am not sure how to respond to that.")
-​
+
 chatbot()
 
 precepts = ["Hey, there!", "Bye"]
