@@ -1,4 +1,8 @@
-so this is what my code should look like:
+/*
+CM1040 REST API Assignment
+Simple CRUD API built with Express.js
+Author: Kassandra ter Beek
+*/
 
 const express = require("express");
 
