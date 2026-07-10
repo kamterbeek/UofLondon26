@@ -1,3 +1,5 @@
+so this is what my code should look like:
+
 const express = require("express");
 
 const app = express();
@@ -84,6 +86,25 @@ app.put("/tasks/:id", (req, res) => {
     task.completed = req.body.completed ?? task.completed;
 
     res.json(task);
+});
+
+// DELETE a task
+app.delete("/tasks/:id", (req, res) => {
+    const taskId = parseInt(req.params.id);
+
+    const taskIndex = tasks.findIndex(task => task.id === taskId);
+
+    if (taskIndex === -1) {
+        return res.status(404).json({
+            message: "Task Not Found"
+        });
+    }
+    const deletedTask = tasks.splice(taskIndex, 1);
+
+    res.json({
+        message: "Task deleted successfully!",
+        deletedTask: deletedTask[0]
+    });
 });
 
 // Start the server
