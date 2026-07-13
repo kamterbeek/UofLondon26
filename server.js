@@ -1,6 +1,6 @@
 /*
 CM1040 REST API Assignment
-Simple CRUD API built with Express.js
+Simple API built with Express.js
 Author: Kassandra ter Beek
 */
 
