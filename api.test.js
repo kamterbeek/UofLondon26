@@ -27,7 +27,7 @@ describe("Task API", () => {
 
     });
 
-    // GET /tasks/:id
+    // GET /tasks
     it("should return one task by ID", (done) => {
 
         chai.request(app)
